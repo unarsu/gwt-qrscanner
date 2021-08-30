@@ -38,7 +38,7 @@ public class ScannerWidget extends FlowPanel
     {
         this.callback = callback;
         this.videoStreamProvider = videoStreamProvider;
-        //readers.add(oneDReader);
+        readers.add(oneDReader);
         readers.add(qrReader);
         createScanTimer();
         add(video);
