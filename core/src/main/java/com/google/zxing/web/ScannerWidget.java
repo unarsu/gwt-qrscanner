@@ -23,7 +23,7 @@ public class ScannerWidget extends FlowPanel
     private Video video = Video.createIfSupported();
     private Canvas canvas = Canvas.createIfSupported();
     private QRCodeReader qrReader = new QRCodeReader();
-//    private MultiFormatOneDReader oneDReader = new MultiFormatOneDReader(null); 
+    private MultiFormatOneDReader oneDReader = new MultiFormatOneDReader(null); 
     private List<Reader> readers = new ArrayList<Reader>();
     private double lastScanTime;
     private int scanInterval = 300;
